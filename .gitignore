@@ -11,5 +11,5 @@ buildout-cache/
 develop-eggs/
 parts/
 src/*
-!src/collective.local.contentrules
+!src/collective
 var/
