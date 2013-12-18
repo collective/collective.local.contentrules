@@ -19,7 +19,7 @@ long_description = (
 
 setup(
     name='collective.local.contentrules',
-    version='1.0rc1',
+    version='1.0rc2.dev0',
     description="Adds string interpolators to get emails of the collaborators on a document.",
     long_description=long_description,
     # Get more from http://pypi.python.org/pypi?%3Aaction=list_classifiers
