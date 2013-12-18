@@ -1,3 +1,7 @@
-graft src/collective.local.contentrules
-graft docs/
-include *.cfg *.rst *.in
+recursive-include src *
+recursive-include docs *
+recursive-include buildout.d *
+include *.rst
+include *.cfg
+include *.py
+global-exclude *.pyc
