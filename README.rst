@@ -1,0 +1,3 @@
+====================
+collective.local.contentrules.contentrules
+====================

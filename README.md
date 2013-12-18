@@ -1,2 +1,0 @@
-collective.local.contentrules
-=============================
