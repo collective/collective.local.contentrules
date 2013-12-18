@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the collective.local.contentrules.contentrules package."""
+"""Installer for the collective.local.contentrules package."""
 
 from setuptools import find_packages
 from setuptools import setup
@@ -42,6 +42,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
+        'plone.api',
     ],
     extras_require={
         'test': [

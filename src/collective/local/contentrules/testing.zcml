@@ -1,7 +1,7 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="collective.local.contentrules.contentrules">
+    i18n_domain="collective.local.contentrules">
 
   <include file="configure.zcml" />
 

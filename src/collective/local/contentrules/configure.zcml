@@ -9,13 +9,26 @@
     <i18n:registerTranslations directory="locales" />
 
     <five:registerPackage package="." initialize=".initialize" />
-    
-    <include package="five.grok" />
-    <include package="plone.api" />
 
-    <include package=".browser" />
-    <include package=".content" />
+   <adapter
+       for="*"
+       provides="plone.stringinterp.interfaces.IStringSubstitution"
+       factory=".stringinterp.AllowedMemberEmailSubstitution"
+       name="allowed_member_emails"
+       />
 
-    <grok:grok package="." />
+   <adapter
+       for="*"
+       provides="plone.stringinterp.interfaces.IStringSubstitution"
+       factory=".stringinterp.AllowedReaderEmailSubstitution"
+       name="allowed_reader_emails"
+       />
+
+   <adapter
+       for="*"
+       provides="plone.stringinterp.interfaces.IStringSubstitution"
+       factory=".stringinterp.AllowedEditorEmailSubstitution"
+       name="allowed_editor_emails"
+       />
 
 </configure>
