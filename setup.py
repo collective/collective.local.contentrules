@@ -43,6 +43,7 @@ setup(
     install_requires=[
         'setuptools',
         'plone.api',
+        'plone.stringinterp',
     ],
     extras_require={
         'test': [
